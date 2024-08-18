@@ -8,19 +8,19 @@
     <title >Tp-Link</title>
 </head>
 <body class="dark:bg-gray-800 bg-slate-200 dark:text-white " >
-    <div class="logo h-11 w-[100vw] pl-1 py-2 mb-6 bg-[#00f2ff] flex justify-start items-center">
+    <div class="logo h-11 w-[100vw] pl-1 py-2  bg-[#00f2ff] flex justify-start items-center">
         <img src="logo-icon.png" alt="Tp-Link" >
     </div>
 
     <div class="w-full h-[50vh]  flex flex-col justify-center items-center p-3">
-      <p class="  font-bold text-xl">Firmware Upgrade</p>
+      <p class="  font-bold text-xl mb-4">Firmware Upgrade</p>
       <h6 class="text-[14.5px] mb-1">
         A new version of the firmware has been detected and awaiting installation. Please review our new terms and conditions and proceed.
       </h6>
       <p class="ml-[-222px] font-semibold">
         Terms And Conditions:
       </p>
-      <div class="w-full h-[200px] overflow-scroll border-2 border-black dark:border-white rounded-sm p-1">
+      <div class="w-full h-[200px] overflow-scroll border-2 border-black dark:border-white rounded-sm p-1 bg-slate-300 dark:bg-slate-700">
 
         <p class="text-[10px] ">
         GNU General Public License Notice
@@ -1122,11 +1122,19 @@ The GNU General Public License does not permit incorporating your program into p
 If your program is a subroutine library, you may consider it more useful to permit linking proprietary
 applications with the library. If this is what you want to do, use the GNU Lesser General Public License
 instead of this License. But first, please read <http: www.gnu.org philosophy why-not-lgpl.html>.
-</p>
-
-
+      </p>
+  
       </div>
+      <form class="flex justify-center items-start  bg w-full   flex-col p-4  ">
+<div class="mb-6">
+      <input type="checkbox" name="" required id="" class="h-4 mr-2" >
+      <label for="check-box "> I Agree With Above Terms And Conditions</label>
     </div>
+    <label for="input">Enter password And Upgrade:</label>
+      <input type="text" name="" id="" placeholder="Enter your router password" required class="border-[1px] border-black rounded-md w-full h-8 p-2  text-black dark:text-black">
+      <input type="submit" value="upgrade" class="h-9 w-40 bg-[#26dde6] rounded-lg mt-4 ml-[90px] ">
+    </form>
+  </div>
 
 
     
